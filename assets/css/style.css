@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --primary-color: #ff8000;
+  --background-color: #fdeaff;
+  --text-color: #fff;
+}
+
+body {
+  background: var(--background-color);
+  font-family: "Courier Prime", monospace;
+}
+
+.stopwatch {
+  width: 90%;
+  max-width: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/assets/images/background.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: var(--text-color);
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.stopwatch h1 {
+  margin-top: 60px;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control-btn {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid var(--text-color);
+  background-color: transparent;
+  color: var(--text-color);
+  transition: transform 0.2s ease-in-out;
+}
+
+.large-btn {
+  width: 80px;
+  height: 80px;
+  background: var(--primary-color);
+}
+
+.control-btn:hover {
+  transform: scale(1.1);
+}
+
+.control-btn i {
+  font-size: 24px;
+}

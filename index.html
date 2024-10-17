@@ -3,10 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stopwatch</title>
+    <title>JavaScript Stopwatch</title>
+    <script
+      src="https://kit.fontawesome.com/b8abe0a58b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <main class="stopwatch">
+      <h1 id="displayTime">00:00:00</h1>
+      <div class="buttons">
+        <button id="pause-btn" class="control-btn">
+          <i class="fa-solid fa-circle-pause"></i>
+        </button>
+        <button id="start-btn" class="control-btn large-btn">
+          <i class="fa-solid fa-circle-play"></i>
+        </button>
+        <button id="reload-btn" class="control-btn">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+        </button>
+      </div>
+    </main>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
