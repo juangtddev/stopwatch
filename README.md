@@ -1,6 +1,6 @@
 # JavaScript Stopwatch
 
-In this project, we will build a **Stopwatch** using **HTML**, **CSS**, and **JavaScript**. The stopwatch includes features to **Start**, **Stop**, and **Reset** the timer, allowing you to control the timer's functionality through a clean, interactive interface. This project is great for showcasing your front-end development skills.
+**Stopwatch** using **HTML**, **CSS**, and **JavaScript**. The stopwatch includes features to **Start**, **Stop**, and **Reset** the timer, allowing you to control the timer's functionality through a clean, interactive interface. 
 
 ## Features
 
